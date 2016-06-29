@@ -1,0 +1,246 @@
+{
+  "Employees" : [
+    {
+      "userId":"rirani",
+      "jobTitleName":"Developer",
+      "firstName":"Romin",
+      "lastName":"Irani",
+      "preferredFullName":"Romin Irani",
+      "employeeCode":"1",
+      "region":"CA",
+      "phoneNumber":"408-1234567",
+      "emailAddress":"romin.k.irani@gmail.com"
+    },
+    {
+      "userId":"nirani",
+      "jobTitleName":"Developer",
+      "firstName":"Neil",
+      "lastName":"Irani",
+      "preferredFullName":"Neil Irani",
+      "employeeCode":"2",
+      "region":"CA",
+      "phoneNumber":"408-1111111",
+      "emailAddress":"neilrirani@gmail.com"
+    },
+    {
+      "userId":"thanks",
+      "jobTitleName":"Program Directory",
+      "firstName":"Tom",
+      "lastName":"Hanks",
+      "preferredFullName":"Tom Hanks",
+      "employeeCode":"3",
+      "region":"CA",
+      "phoneNumber":"408-2222222",
+      "emailAddress":"tomhanks@gmail.com"
+    },
+    {
+      "userId":"thanks",
+      "jobTitleName":"Program Directory",
+      "firstName":"Zeil",
+      "lastName":"Hanks",
+      "preferredFullName":"Tom Hanks",
+      "employeeCode":"4",
+      "region":"CA",
+      "phoneNumber":"408-2222222",
+      "emailAddress":"tomhanks@gmail.com"
+    },
+    {
+      "userId":"thanks",
+      "jobTitleName":"Program Directory",
+      "firstName":"CJ",
+      "lastName":"Hanks",
+      "preferredFullName":"Tom Hanks",
+      "employeeCode":"5",
+      "region":"CA",
+      "phoneNumber":"408-2222222",
+      "emailAddress":"tomhanks@gmail.com"
+    },
+    {
+      "userId":"thanks",
+      "jobTitleName":"Program Directory",
+      "firstName":"Jammie",
+      "lastName":"Hanks",
+      "preferredFullName":"Tom Hanks",
+      "employeeCode":"6",
+      "region":"CA",
+      "phoneNumber":"408-2222222",
+      "emailAddress":"tomhanks@gmail.com"
+    },
+    {
+      "userId":"thanks",
+      "jobTitleName":"Program Directory",
+      "firstName":"Daniel",
+      "lastName":"Hanks",
+      "preferredFullName":"Tom Hanks",
+      "employeeCode":"7",
+      "region":"CA",
+      "phoneNumber":"408-2222222",
+      "emailAddress":"tomhanks@gmail.com"
+    },
+    {
+      "userId":"thanks",
+      "jobTitleName":"Program Directory",
+      "firstName":"Adam",
+      "lastName":"Hanks",
+      "preferredFullName":"Tom Hanks",
+      "employeeCode":"8",
+      "region":"CA",
+      "phoneNumber":"408-2222222",
+      "emailAddress":"tomhanks@gmail.com"
+    },
+    {
+      "userId":"thanks",
+      "jobTitleName":"Program Directory",
+      "firstName":"Oliver",
+      "lastName":"Hanks",
+      "preferredFullName":"Tom Hanks",
+      "employeeCode":"9",
+      "region":"CA",
+      "phoneNumber":"408-2222222",
+      "emailAddress":"tomhanks@gmail.com"
+    },
+    {
+      "userId":"thanks",
+      "jobTitleName":"Program Directory",
+      "firstName":"Tom",
+      "lastName":"Hanks",
+      "preferredFullName":"Tom Hanks",
+      "employeeCode":"10",
+      "region":"CA",
+      "phoneNumber":"408-2222222",
+      "emailAddress":"tomhanks@gmail.com"
+    },
+    {
+      "userId":"thanks",
+      "jobTitleName":"Program Directory",
+      "firstName":"John",
+      "lastName":"Hanks",
+      "preferredFullName":"Tom Hanks",
+      "employeeCode":"11",
+      "region":"CA",
+      "phoneNumber":"408-2222222",
+      "emailAddress":"tomhanks@gmail.com"
+    },
+    {
+      "userId":"thanks",
+      "jobTitleName":"Program Directory",
+      "firstName":"Sansha",
+      "lastName":"Hanks",
+      "preferredFullName":"Tom Hanks",
+      "employeeCode":"12",
+      "region":"CA",
+      "phoneNumber":"408-2222222",
+      "emailAddress":"tomhanks@gmail.com"
+    },
+    {
+      "userId":"thanks",
+      "jobTitleName":"Program Directory",
+      "firstName":"Arya",
+      "lastName":"Hanks",
+      "preferredFullName":"Tom Hanks",
+      "employeeCode":"13",
+      "region":"CA",
+      "phoneNumber":"408-2222222",
+      "emailAddress":"tomhanks@gmail.com"
+    },
+    {
+      "userId":"thanks",
+      "jobTitleName":"Program Directory",
+      "firstName":"Peter",
+      "lastName":"Hanks",
+      "preferredFullName":"Tom Hanks",
+      "employeeCode":"14",
+      "region":"CA",
+      "phoneNumber":"408-2222222",
+      "emailAddress":"tomhanks@gmail.com"
+    },
+    {
+      "userId":"thanks",
+      "jobTitleName":"Program Directory",
+      "firstName":"Jermie",
+      "lastName":"Hanks",
+      "preferredFullName":"Tom Hanks",
+      "employeeCode":"15",
+      "region":"CA",
+      "phoneNumber":"408-2222222",
+      "emailAddress":"tomhanks@gmail.com"
+    },
+    {
+      "userId":"thanks",
+      "jobTitleName":"Program Directory",
+      "firstName":"Paul",
+      "lastName":"Hanks",
+      "preferredFullName":"Tom Hanks",
+      "employeeCode":"16",
+      "region":"CA",
+      "phoneNumber":"408-2222222",
+      "emailAddress":"tomhanks@gmail.com"
+    },
+    {
+      "userId":"thanks",
+      "jobTitleName":"Program Directory",
+      "firstName":"Redcliff",
+      "lastName":"Hanks",
+      "preferredFullName":"Tom Hanks",
+      "employeeCode":"17",
+      "region":"CA",
+      "phoneNumber":"408-2222222",
+      "emailAddress":"tomhanks@gmail.com"
+    },
+    {
+      "userId":"thanks",
+      "jobTitleName":"Program Directory",
+      "firstName":"Sam",
+      "lastName":"Hanks",
+      "preferredFullName":"Tom Hanks",
+      "employeeCode":"18",
+      "region":"CA",
+      "phoneNumber":"408-2222222",
+      "emailAddress":"tomhanks@gmail.com"
+    },
+    {
+      "userId":"thanks",
+      "jobTitleName":"Program Directory",
+      "firstName":"Canary",
+      "lastName":"Hanks",
+      "preferredFullName":"Tom Hanks",
+      "employeeCode":"19",
+      "region":"CA",
+      "phoneNumber":"408-2222222",
+      "emailAddress":"tomhanks@gmail.com"
+    },
+    {
+      "userId":"thanks",
+      "jobTitleName":"Program Directory",
+      "firstName":"Obama",
+      "lastName":"Hanks",
+      "preferredFullName":"Tom Hanks",
+      "employeeCode":"20",
+      "region":"CA",
+      "phoneNumber":"408-2222222",
+      "emailAddress":"tomhanks@gmail.com"
+    },
+    {
+      "userId":"thanks",
+      "jobTitleName":"Program Directory",
+      "firstName":"Cliff",
+      "lastName":"Hanks",
+      "preferredFullName":"Tom Hanks",
+      "employeeCode":"21",
+      "region":"CA",
+      "phoneNumber":"408-2222222",
+      "emailAddress":"tomhanks@gmail.com"
+    },
+    {
+      "userId":"thanks",
+      "jobTitleName":"Program Directory",
+      "firstName":"Hiddy",
+      "lastName":"Hanks",
+      "preferredFullName":"Tom Hanks",
+      "employeeCode":"22",
+      "region":"CA",
+      "phoneNumber":"408-2222222",
+      "emailAddress":"tomhanks@gmail.com"
+    }
+  ]
+}

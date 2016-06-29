@@ -1,0 +1,35 @@
+<!--Steps to use UI Highlight
+This will highlight the text as you try to search for tha text
+ 1. Include all files inside script tag
+   1.1 angular,angular-ui-utils and angular-sanitize
+ 2. Include the dependencies in app.js
+   2.1 ui.highlight,ngSanitize
+ 3. Make a search box with ng-model
+ 4. bind it to a paragraph tag by using ng-bind-html and filter highlight:search
+ 5. At the last give some styling to that(line no: 19)
+ -->
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular HighLight Utility</title>
+    <style>
+        .ui-match {
+            background: white;
+            color: orange;
+        }
+    </style>
+    <script src="public/lib/bower_components/angular/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-utils/0.1.1/angular-ui-utils.min.js"></script>
+    <!-- angular sanitize in an official angular library through which if you write anything inside textarea in a html tag, it will
+    be printed in normal text in paragraph or any other..  -->
+    <script src="public/lib/bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+<div ng-controller="myController">
+    <input type="text" ng-model="search" type="search">
+    <p ng-bind-html="msg | highlight:search"></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Searching,Sorting & Pagination</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-controller="myController">
+<div class="container">
+    <ul class="buttons">
+        <li><button ng-click="shortIt()">All</button></li>
+        <li><button>#</button></li>
+        <li><button ng-click="sortIt('Abc')">A</button></li>
+        <li><button>B</button></li>
+        <li><button>C</button></li>
+        <li><button>D</button></li>
+        <li><button>E</button></li>
+        <li><button>F</button></li>
+        <li><button>G</button></li>
+        <li><button>H</button></li>
+        <li><button>I</button></li>
+        <li><button>J</button></li>
+        <li><button>K</button></li>
+        <li><button>L</button></li>
+        <li><button>M</button></li>
+        <li><button>N</button></li>
+        <li><button>O</button></li>
+        <li><button>P</button></li>
+        <li><button>Q</button></li>
+        <li><button>R</button></li>
+        <li><button>S</button></li>
+        <li><button>T</button></li>
+        <li><button>U</button></li>
+        <li><button>V</button></li>
+        <li><button>W</button></li>
+        <li><button>X</button></li>
+        <li><button>Y</button></li>
+        <li><button>Z</button></li>
+    </ul>
+    <form class="form-inline">
+        <div class="from-group">
+            <label>Search:</label>
+            <input type="text" ng-model="search" class="form-control" placeholder="Search.." size="72"><br/><br/>
+        </div>
+        <div class="form-group">
+            <label>Sort By:</label>
+            <select class="form-control" id="box" ng-model="sortColumn">
+                <option value="firstName">First Name ASC </option>
+                <option value="-firstName">First Name DESC </option>
+                <option value="lastName">Last Name ASC </option>
+                <option value="-lastName">Last Name DESC </option>
+                <option value="phoneNumber">Phone Number ASC </option>
+                <option value="-phoneNumber">Phone Name DESC </option>
+            </select>
+        </div>
+    </form>
+    <div class="scroll">
+    <table class="table table-striped table-hover table-bordered">
+        <thead>
+            <tr>
+                <th ng-click="sort('employeeCode')">Employee Code
+                    <span class="glyphicon sort-icon" ng-show="sortKey=='employeeCode'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+                </th>
+                <th ng-click="sort('firstName')">First Name
+                    <span class="glyphicon sort-icon" ng-show="sortKey=='firstName'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+                </th>
+                <th ng-click="sort('lastName')">Last Name
+                    <span class="glyphicon sort-icon" ng-show="sortKey=='lastName'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+                </th>
+                <th ng-click="sort('phoneNumber')">Phone Number
+                    <span class="glyphicon sort-icon" ng-show="sortKey=='phoneNumber'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="employee in employees.Employees| filter:search|orderBy:sortKey:reverse|orderBy:sortColumn">
+                <td>{{employee.employeeCode}}</td>
+                <td>{{employee.firstName}}</td>
+                <td>{{employee.lastName}}</td>
+                <td>{{employee.phoneNumber}}</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+</div>
+</body>
+</html>

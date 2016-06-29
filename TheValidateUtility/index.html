@@ -1,0 +1,34 @@
+<!--ui-validate is similar to any other event handling. It takes either a Javascript string or reference to a function that is in our controller that will run to validate this field.
+  If it's return true,field is considered to be validated and vice versa
+  ui-validate='"$value === password"' Here $value is the value put into the field
+  ui-validate-watch='"password"' It's like a condition which watches whenever value of password changes-->
+
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular HighLight Utility</title>
+    <style>
+        input.ng-invalid.ng-dirty {
+            border:1px solid red;
+        }
+    </style>
+    <script src="public/lib/bower_components/angular/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-utils/0.1.1/angular-ui-utils.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+<div ng-controller="myController">
+    <form name="myForm">
+        <p><input type="password" ng-model="password" required></p>
+        <p><input type="password"
+                  ng-model="confirmPassword"
+                  required
+                  ui-validate='"$value === password"'
+                  ui-validate-watch='"password"'></p>
+        <button ng-disabled="!myForm.$valid">Submit</button>
+    </form>
+
+</div>
+</body>
+</html>

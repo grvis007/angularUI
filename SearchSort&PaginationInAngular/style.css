@@ -1,0 +1,36 @@
+body{
+    margin-top:100px;
+}
+.scroll {
+    overflow-y: scroll;
+    border:1px solid black;
+    width:650px;
+    height:500px;
+    border-radius: 8px;
+    padding:10px;
+    margin-left:250px;
+}
+input {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+select {
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+label {
+    margin-left: 250px;
+}
+#box{
+    width:570px;
+}
+ul {
+    position: absolute;
+    top:220px;
+    list-style: none;
+    margin-left:210px;
+}
+li {
+    display:inline;
+
+}

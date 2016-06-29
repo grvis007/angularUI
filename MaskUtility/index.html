@@ -1,0 +1,29 @@
+<!--Steps to use angular ui mask utility
+  1. Make an input tag and give it a property ui-mask='{{mask1}}'
+     We are going to define mask on mask1 in our app.js file
+  2. Include the dependency ui.mask
+  3. Provide the mask property inside scope
+  4. If you want to have only digits then use 9999
+                              characters AA
+                              any hidden ***
+-->
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Mask Utility</title>
+    <script src="public/lib/bower_components/angular/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-utils/0.1.1/angular-ui-utils.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+<div ng-controller="myController">
+    <p><input type="text" ng-model="val1" ui-mask='{{mask1}}'> </p>
+    {{val1}}
+    <p><input type="text" ng-model="val2" ui-mask='{{mask2}}'> </p>
+    {{val2}}
+    <p><input type="text" ng-model="val3" ui-mask='{{mask3}}'> </p>
+    {{val3}}
+</div>
+</body>
+</html>

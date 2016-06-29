@@ -1,0 +1,96 @@
+[
+  {
+    "Id":1,
+    "Country":"India",
+    "City":
+    [
+      {
+        "Id": 1,
+        "Cities": "Mumbai",
+        "CountryId": 1
+      },
+      {
+        "Id": 2,
+        "Cities": "Delhi",
+        "CountryId": 1
+      },
+      {
+        "Id": 3,
+        "Cities": "Ranchi",
+        "CountryId": 1
+      },
+      {
+        "Id": 4,
+        "Cities": "Mumbai",
+        "CountryId": 1
+      },
+      {
+        "Id": 5,
+        "Cities": "Mumbai",
+        "CountryId": 1
+      }
+    ]
+  },
+  {
+    "Id":2,
+    "Country":"UK",
+    "City":[
+      {
+        "Id": 1,
+        "Cities": "London",
+        "CountryId": 2
+      },
+      {
+        "Id": 2,
+        "Cities": "Manchester",
+        "CountryId": 2
+      },
+      {
+        "Id": 3,
+        "Cities": "Liverpool",
+        "CountryId": 2
+      },
+      {
+        "Id": 4,
+        "Cities": "Birmingham",
+        "CountryId": 2
+      },
+      {
+        "Id": 5,
+        "Cities": "Coventry",
+        "CountryId": 2
+      }
+    ]
+  },
+  {
+    "Id":1,
+    "Country":"USA",
+    "City":[
+      {
+        "Id": 1,
+        "Cities": "Chicago",
+        "CountryId": 3
+      },
+      {
+        "Id": 2,
+        "Cities": "Los Angles",
+        "CountryId": 3
+      },
+      {
+        "Id": 3,
+        "Cities": "New York",
+        "CountryId": 3
+      },
+      {
+        "Id": 4,
+        "Cities": "Washington",
+        "CountryId": 3
+      },
+      {
+        "Id": 5,
+        "Cities": "Wisconsin",
+        "CountryId": 3
+      }
+    ]
+  }
+]

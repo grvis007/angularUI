@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="anchorScroll">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="Script.js"></script>
+    <link href="Style.css" rel="stylesheet" />
+</head>
+<body ng-controller="demoController">
+<span ng-repeat="country in countries">
+    <button ng-click="scrollTo(country.Country)">{{country.Country}}</button>
+</span>
+<br /><br />
+<div class="containerDiv">
+    <fieldset ng-repeat="country in countries" id="{{country.Country}}">
+        <legend>{{country.Country}}</legend>
+        <ul>
+            <li ng-repeat="city in country.City">
+                {{city.Cities}}
+            </li>
+        </ul>
+    </fieldset>
+</div>
+</body>
+</html>

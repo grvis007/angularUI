@@ -1,0 +1,40 @@
+<!-- Steps to perform unique utility
+ 1. Include ui.unique dependency
+ 2. PAss the filter inside the ng-repeat as unique:field
+ 3. set the ng-click property on button with the same name which you have passed in filter
+ -->
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular HighLight Utility</title>
+    <style>
+        table,td,th {
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+    <script src="public/lib/bower_components/angular/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-utils/0.1.1/angular-ui-utils.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+<div ng-controller="myController">
+    <button ng-click="field=''">All</button>
+    <button ng-click="field='firstName'">First Name</button>
+    <button ng-click="field='lastName'">Last Name</button>
+<table>
+    <tr>
+        <th>User Id</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+    </tr>
+    <tr ng-repeat="employee in employees.Employees | unique:field">
+        <td>{{employee.employeeCode}}</td>
+        <td>{{employee.firstName}}</td>
+        <td>{{employee.lastName}}</td>
+    </tr>
+</table>
+</div>
+</body>
+</html>
